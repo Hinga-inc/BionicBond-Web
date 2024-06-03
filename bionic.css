@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Theme Colors */
+:root {
+    --teal: #0097A7;
+    --white: #FFFFFF;
+    --navy-blue: #032B44;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--navy-blue);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: var(--teal);
+    padding: 100px;
+    text-align: center;
+}
+
+/* Content Section Styles */
+.content {
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--navy-blue);
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
+}
